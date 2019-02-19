@@ -2,21 +2,15 @@ package com.zxin.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.sql.DataSource;
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBoot01Config03ApplicationTests {
-
-	@Autowired
-	private DataSource dataSource;
+public class SpringBoot02SimpleCrudApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println(dataSource);
 	}
 
 }
