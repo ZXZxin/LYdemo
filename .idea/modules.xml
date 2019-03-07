@@ -3,10 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LYdemo.iml" filepath="$PROJECT_DIR$/LYdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/consumer-demo.iml" filepath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/consumer-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/consumer-demo-good.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/consumer-demo-good.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-config-01/springboot-01-config-01.iml" filepath="$PROJECT_DIR$/springboot-01-config-01/springboot-01-config-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-config-02/springboot-01-config-02.iml" filepath="$PROJECT_DIR$/springboot-01-config-02/springboot-01-config-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-config-03/springboot-01-config-03.iml" filepath="$PROJECT_DIR$/springboot-01-config-03/springboot-01-config-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-02-simplecrud/springboot-02-simplecrud.iml" filepath="$PROJECT_DIR$/springboot-02-simplecrud/springboot-02-simplecrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-01-http-resttemplate/springcloud-01-http-resttemplate.iml" filepath="$PROJECT_DIR$/springcloud-01-http-resttemplate/springcloud-01-http-resttemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/springcloud-02-scene-simulate-cloud.iml" filepath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/springcloud-02-scene-simulate-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/springcloud-03-eureka-demo.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/springcloud-03-eureka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/user-service.iml" filepath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/user-service-good.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/user-service-good.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,24 @@
+package com.zxin.userservice.service;
+
+import com.zxin.userservice.mapper.UserMapper;
+import com.zxin.userservice.pojo.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service
+public class UserService {
+
+    @Autowired
+    private UserMapper userMapper;
+
+    public User queryById(Integer id){
+        return userMapper.selectByPrimaryKey(id);
+    }
+
+    @Transactional  // 事务
+    public void insertUser(User user){
+        userMapper.insert(user);
+    }
+}
+

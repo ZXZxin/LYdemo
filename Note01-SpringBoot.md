@@ -1,7 +1,9 @@
-# SpringBootDemoNotes
+# Note01-SpringBoot
 
 * [一、属性注入配置简化](#一属性注入配置简化)
 * [二、自动配置原理](#二自动配置原理)
+* [三、SpringBoot实践-简单crud](#三springboot实践-简单crud)
+* [四、Thymeleaf快速入门](#四thymeleaf快速入门)
 
 ## 一、属性注入配置简化
 
@@ -924,10 +926,10 @@ SpringBoot会自动为Thymeleaf注册一个视图解析器：
 
 - `${}` ：这个类似与el表达式，但其实是ognl的语法，比el表达式更加强大
 - `th-`指令：`th-`是利用了Html5中的自定义属性来实现的。如果不支持H5，可以用`data-th-`来代替
-  - `th:each`：类似于`c:foreach`  遍历集合，但是语法更加简洁
-  - `th:text`：声明标签中的文本
-    - 例如`<td th-text='${user.id}'>1</td>`，如果user.id有值，会覆盖默认的1
-    - 如果没有值，则会显示td中默认的1。这正是thymeleaf能够动静结合的原因，模板解析失败不影响页面的显示效果，因为会显示默认值！
+  - `th:each`：类似于`c:foreach`  遍历集合，但是语法更加简洁；
+  - `th:text`：声明标签中的文本；
+    - 例如`<td th-text='${user.id}'>1</td>`，如果`user.id`有值，会覆盖默认的1；
+    - 如果没有值，则会显示td中默认的1。这正是thymeleaf能够动静结合的原因，模板解析失败不影响页面的显示效果，因为会显示默认值；
 
 ### 5、测试
 
@@ -941,8 +943,4 @@ spring.thymeleaf.cache=false # 开发阶段关闭thymeleaf的模板缓存
 
 **注意**：
 
-​	在Idea中，我们需要在修改页面后按快捷键：`Ctrl + Shift + F9` 对项目进行rebuild才可以。
-
-​	eclipse中没有测试过。
-
-我们可以修改页面，测试一下。
+在Idea中，我们需要在修改页面后按快捷键：`Ctrl + Shift + F9` 对项目进行`rebuild`才可以。

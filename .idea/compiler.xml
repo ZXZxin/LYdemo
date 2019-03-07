@@ -6,19 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LYdemo" />
+        <module name="consumer-demo" />
+        <module name="consumer-demo-good" />
+        <module name="eureka-server" />
         <module name="springboot-01-config-01" />
         <module name="springboot-01-config-02" />
         <module name="springboot-01-config-03" />
         <module name="springboot-02-simplecrud" />
+        <module name="springcloud-01-http-resttemplate" />
+        <module name="springcloud-02-scene-simulate-cloud" />
+        <module name="springcloud-03-eureka-demo" />
+        <module name="user-service" />
+        <module name="user-service-good" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer-demo" target="1.8" />
+      <module name="consumer-demo-good" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="LYdemo" target="1.7" />
+      <module name="spring-cloud-01-http-resttemplate" target="1.8" />
       <module name="springboot-01-config-01" target="1.8" />
       <module name="springboot-01-config-02" target="1.8" />
       <module name="springboot-01-config-03" target="1.8" />
       <module name="springboot-02-simplecrud" target="1.8" />
+      <module name="springcloud-01-http-resttemplate" target="1.8" />
+      <module name="springcloud-02-scene-simulate-cloud" target="1.8" />
+      <module name="springcloud-03-eureka-demo" target="1.8" />
+      <module name="springcloud_02_scene_simulate_cloud" target="1.7" />
+      <module name="user-service" target="1.8" />
+      <module name="user-service-good" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

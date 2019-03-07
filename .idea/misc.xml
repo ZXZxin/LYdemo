@@ -8,7 +8,19 @@
         <option value="$PROJECT_DIR$/springboot-01-config-02/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-01-config-03/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-simplecrud/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-01-http-resttemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloud_02_scene_simulate_cloud/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

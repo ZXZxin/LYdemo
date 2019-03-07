@@ -1,0 +1,18 @@
+logging:
+  level:
+    com.zxin.springboot: debug  # key - val 结构
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot
+    username: root
+    password: root
+
+mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true  # 有了通用mapper了就不要这个了
+  type-aliases-package: com.zxin.springboot.pojo
+server:
+  port: 8081
+#  mapper-locations: classpath:mapper/*.xml  # 这里用通用mapper 不用xml了(单表)

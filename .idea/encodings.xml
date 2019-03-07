@@ -6,5 +6,15 @@
     <file url="file://$PROJECT_DIR$/springboot-01-config-02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-01-config-03" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-02-simplecrud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-01-http-resttemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good" charset="UTF-8" />
   </component>
 </project>
