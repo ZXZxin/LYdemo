@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c846fd-dbcb-4485-8a38-eb6477b92e06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SpringBootDemoNotes.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-01-config-03/target/classes/com/zxin/springboot/SpringBoot01Config03Application.class" afterPath="$PROJECT_DIR$/springboot-01-config-03/target/classes/com/zxin/springboot/SpringBoot01Config03Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-01-config-03/target/test-classes/com/zxin/springboot/SpringBoot01Config03ApplicationTests.class" afterPath="$PROJECT_DIR$/springboot-01-config-03/target/test-classes/com/zxin/springboot/SpringBoot01Config03ApplicationTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-01-http-resttemplate/target/classes/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplication.class" afterPath="$PROJECT_DIR$/springcloud-01-http-resttemplate/target/classes/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-01-http-resttemplate/target/test-classes/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplicationTests.class" afterPath="$PROJECT_DIR$/springcloud-01-http-resttemplate/target/test-classes/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplicationTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/target/classes/com/zxin/userservice/UserServiceApplication.class" afterPath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/target/classes/com/zxin/userservice/UserServiceApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/classes/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.class" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/classes/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/classes/com/zxin/consumerdemogood/controller/ConsumerController.class" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/classes/com/zxin/consumerdemogood/controller/ConsumerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/target/classes/com/zxin/userservicegood/UserServiceGoodApplication.class" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/target/classes/com/zxin/userservicegood/UserServiceGoodApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Note02-认识微服务.md" afterPath="$PROJECT_DIR$/Note02-认识微服务.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/consumer-demo-good.iml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/consumer-demo-good.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/pom.xml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.java" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/classes/application.yml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/target/classes/application.yml" afterPath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/target/classes/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +44,15 @@
     <ignored path="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-04-hystrix-demo/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-05-feign-demo/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,73 +60,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LYdemo$EurekaServer2Application.coverage" NAME="EurekaServer2Application Coverage Results" MODIFIED="1552617116430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zxin.eurekaserver.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.yml">
+      <file leaf-file-name="ConsumerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="78" />
-              <folding />
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/java/com/zxin/eurekaserver/EurekaServerApplication.java">
+      <file leaf-file-name="EurekaServer3Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/src/main/java/com/zxin/eurekaserver/EurekaServer3Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="132">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.yml">
+      <file leaf-file-name="UserServiceGood3Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/UserServiceGood3Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaServerApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/test/java/com/zxin/eurekaserver/EurekaServerApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceGoodApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/UserServiceGoodApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="154">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="264">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -109,34 +116,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/pojo/User.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="32" />
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerDemoGoodApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserFeignClientFallback.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserFeignClientFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerDemoGood3Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGood3Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ConsumerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +191,7 @@
     <findStrings>
       <find>Internal</find>
       <find>HandlerAdapter</find>
+      <find>default_executionTimeoutInMilliseconds</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,43 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-01-config-02/src/test/java/com/zxin/springboot/SpringBoot01Config02ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-01-config-03/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-01-config-03/src/test/java/com/zxin/springboot/Springboot01Config03ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-01-config-03/src/main/java/com/zxin/springboot/config/JdbcConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-01-config-03/src/test/java/com/zxin/springboot/SpringBoot01Config03ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-01-config-03/readme.md" />
-        <option value="$PROJECT_DIR$/springboot-01-config-03/src/main/java/com/zxin/springboot/SpringBoot01Config03Application.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/User.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/service/UserService.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/controller/QueryController.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/SpringBoot02SimpleCrudApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springboot-02-simplecrud/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-01-http-resttemplate/src/main/java/com/zxin/springcloud/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springcloud-01-http-resttemplate/src/test/java/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springcloud-01-http-resttemplate/src/main/java/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud_02_scene_simulate_cloud/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/readme.md" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/UserService.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/service/UserService.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/controller/QueryController.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/java/com/zxin/consumerdemo/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/java/com/zxin/consumerdemo/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/UserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/java/com/zxin/consumerdemo/ConsumerDemoApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client/src/main/java/com/zxin/eurekaclient/EurekaClientApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.properties" />
@@ -211,13 +212,50 @@
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/controller/QueryController.java" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/service/UserService.java" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/java/com/zxin/eurekaserver/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/UserServiceGoodApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/src/main/java/com/zxin/eurekaserver/EurekaServer2Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/test/java/com/zxin/userservergood/UserServerGood2ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/UserServerGood2Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/controller/QueryController.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/UserServiceGood2Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGood2Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/readme.md" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/src/main/java/com/zxin/eurekaserver/EurekaServer3Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/UserServiceGood3Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGood3Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserFeignClientFallbackImlp.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserFeignClientFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserFeignClientFallback.java" />
       </list>
     </option>
   </component>
@@ -239,6 +277,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consumer-demo-good" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consumer-demo-good" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="LYdemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -255,10 +302,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1997" />
-    <option name="y" value="62" />
-    <option name="width" value="1910" />
-    <option name="height" value="810" />
+    <option name="x" value="2290" />
+    <option name="y" value="266" />
+    <option name="width" value="1515" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -279,8 +326,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,102 +336,55 @@
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-demo-good" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-demo-good" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-demo-good" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-demo-good" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zxin" type="462c0819:PsiDirectoryNode" />
@@ -394,10 +392,95 @@
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerdemogood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerdemogood" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zxin" type="462c0819:PsiDirectoryNode" />
@@ -406,29 +489,8 @@
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-good" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-good" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-good" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-03-eureka-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-good" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -436,13 +498,394 @@
             <path>
               <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="userservicegood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-04-hystrix-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerdemogood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerdemogood" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerdemogood" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerdemogood" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-demo-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="userservicegood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="userservicegood" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="userservicegood" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="userservicegood" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zxin" type="462c0819:PsiDirectoryNode" />
+              <item name="userservicegood" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LYdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LYdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-05-feign-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service-good-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,7 +900,7 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.35829493" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -467,11 +910,11 @@
       <recent name="com.zxin.springboot.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood" />
-      <recent name="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood" />
-      <recent name="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice" />
-      <recent name="$PROJECT_DIR$/springboot-01-config-03/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood" />
+      <recent name="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood" />
+      <recent name="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood" />
+      <recent name="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood" />
+      <recent name="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -486,12 +929,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.ConsumerDemoGood3Application">
+    <configuration name="All in springcloud-04-hystrix-demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="springcloud-04-hystrix-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ConsumerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.consumerdemo.ConsumerDemoApplication" />
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <module name="consumer-demo" />
+      <envs />
+    </configuration>
+    <configuration name="ConsumerDemoGood2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.consumerdemogood.ConsumerDemoGood2Application" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="consumer-demo-good-2" />
+      <envs />
+    </configuration>
+    <configuration name="ConsumerDemoGood3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.consumerdemogood.ConsumerDemoGood3Application" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="consumer-demo-good-3" />
       <envs />
     </configuration>
     <configuration name="ConsumerDemoGoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -508,12 +985,18 @@
       <module name="eureka-client" />
       <envs />
     </configuration>
-    <configuration name="EurekaServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.eurekaserver.EurekaServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.eurekaserver.EurekaServer2Application" />
       <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-server" />
+      <module name="eureka-server-2" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaServer3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.eurekaserver.EurekaServer3Application" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="eureka-server-3" />
       <envs />
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -522,81 +1005,6 @@
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <module name="eureka-server" />
       <envs />
-    </configuration>
-    <configuration name="SpringBoot01Config01ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zxin.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-01-config-01" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zxin.springboot" />
-      <option name="MAIN_CLASS_NAME" value="com.zxin.springboot.SpringBoot01Config01ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringBoot01Config02ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zxin.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-01-config-02" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zxin.springboot" />
-      <option name="MAIN_CLASS_NAME" value="com.zxin.springboot.SpringBoot01Config02ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringBoot01Config03ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zxin.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-01-config-03" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.zxin.springboot" />
-      <option name="MAIN_CLASS_NAME" value="com.zxin.springboot.SpringBoot01Config03ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="SpringCloud01HttpRestTemplateApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -672,11 +1080,76 @@
       <module name="springcloud-03-eureka-demo" />
       <envs />
     </configuration>
+    <configuration name="Springcloud05FeignDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.springcloud.Springcloud05FeignDemoApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="springcloud-05-feign-demo" />
+      <envs />
+    </configuration>
+    <configuration name="UserServerGood2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxin.userservergood.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zxin.userservergood.UserServerGood2Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="user-server-good-2" />
+      <envs />
+    </configuration>
+    <configuration name="UserServerGood2ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zxin.userservergood.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-server-good-2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zxin.userservergood" />
+      <option name="MAIN_CLASS_NAME" value="com.zxin.userservergood.UserServerGood2ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.userservice.UserServiceApplication" />
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <module name="user-service" />
+      <envs />
+    </configuration>
+    <configuration name="UserServiceGood2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.userservicegood.UserServiceGood2Application" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="user-service-good-2" />
+      <envs />
+    </configuration>
+    <configuration name="UserServiceGood3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxin.userservicegood.UserServiceGood3Application" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="user-service-good-3" />
       <envs />
     </configuration>
     <configuration name="UserServiceGoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -773,7 +1246,7 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="18">
+    <list size="25">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Springboot01Config01Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Springboot01Config02Application" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.Springboot01Config03Application" />
@@ -782,23 +1255,31 @@
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.Springcloud02SceneSimulateCloudApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.UserServiceApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.ConsumerDemoApplication" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.SpringBoot01Config01ApplicationTests.contextLoads" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.SpringBoot01Config02ApplicationTests.contextLoads" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.SpringBoot01Config03ApplicationTests.contextLoads" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.SpringCloud01HttpRestTemplateApplicationTests.contextLoads" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.Springcloud03EurekaDemoApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.UserServiceGoodApplication" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.ConsumerDemoGoodApplication" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication (2)" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.Springcloud03EurekaDemoApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.UserServiceGoodApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.ConsumerDemoGoodApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.ConsumerDemoGood2Application" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.UserServiceGood2Application" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.SpringCloud01HttpRestTemplateApplicationTests.contextLoads" />
+      <item index="16" class="java.lang.String" itemvalue="JUnit.All in springcloud-04-hystrix-demo" />
+      <item index="17" class="java.lang.String" itemvalue="Application.EurekaServer2Application" />
+      <item index="18" class="java.lang.String" itemvalue="Application.UserServerGood2Application" />
+      <item index="19" class="java.lang.String" itemvalue="JUnit.UserServerGood2ApplicationTests.contextLoads" />
+      <item index="20" class="java.lang.String" itemvalue="Spring Boot.Springcloud05FeignDemoApplication" />
+      <item index="21" class="java.lang.String" itemvalue="Spring Boot.EurekaServer3Application" />
+      <item index="22" class="java.lang.String" itemvalue="Spring Boot.UserServiceGood3Application" />
+      <item index="23" class="java.lang.String" itemvalue="Spring Boot.ConsumerDemoGood3Application" />
+      <item index="24" class="java.lang.String" itemvalue="Spring Boot.EurekaServer2Application" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringCloud01HttpRestTemplateApplicationTests.contextLoads" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringBoot01Config03ApplicationTests.contextLoads" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringBoot01Config02ApplicationTests.contextLoads" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringBoot01Config01ApplicationTests.contextLoads" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.EurekaServer2Application" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServerGood2ApplicationTests.contextLoads" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UserServerGood2Application" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in springcloud-04-hystrix-demo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringCloud01HttpRestTemplateApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -824,13 +1305,16 @@
       <workItem from="1551081305490" duration="1830000" />
       <workItem from="1551884023079" duration="4769000" />
       <workItem from="1551923869655" duration="10287000" />
+      <workItem from="1552020245999" duration="7611000" />
+      <workItem from="1552057735380" duration="711000" />
+      <workItem from="1552090064367" duration="930000" />
+      <workItem from="1552181856392" duration="4220000" />
+      <workItem from="1552205533226" duration="395000" />
+      <workItem from="1552615103107" duration="9668000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringBoot01Config03ApplicationTests_contextLoads - 2019.02.18 at 22h 50m 06s.xml">
-      <configuration name="SpringBoot01Config03ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpringBoot01Config03ApplicationTests_contextLoads - 2019.02.19 at 14h 12m 05s.xml">
       <configuration name="SpringBoot01Config03ApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
@@ -858,9 +1342,12 @@
     <history-entry file="Springboot01Config03ApplicationTests_contextLoads - 2019.02.18 at 22h 47m 51s.xml">
       <configuration name="Springboot01Config03ApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServerGood2ApplicationTests_contextLoads - 2019.03.10 at 10h 06m 57s.xml">
+      <configuration name="UserServerGood2ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37021000" />
+    <option name="totallyTimeSpent" value="60556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -868,7 +1355,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14514408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10245464" sideWeight="0.4928717" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -880,14 +1367,15 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050108932" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42156863" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46514162" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45860568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10245464" sideWeight="0.5071283" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25667024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19316968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -926,77 +1414,199 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="638">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/pojo/User.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/test/java/com/zxin/userservergood/UserServerGood2ApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/UserServerGood2Application.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/controller/QueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/controller/QueryController.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-server-good-2/src/main/java/com/zxin/userservergood/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/controller/QueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/UserServiceGoodApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/readme.md">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="41" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/resources/application.properties">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="81" column="80" lean-forward="false" selection-start-line="81" selection-start-column="80" selection-end-line="81" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGood2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/src/main/java/com/zxin/eurekaserver/EurekaServer2Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1004,7 +1614,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/controller/QueryController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/controller/QueryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -1012,410 +1652,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#367#368#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="229">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-simplecrud/src/main/java/com/zxin/springboot/SpringBoot02SimpleCrudApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/client/UserClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-01-http-resttemplate/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/src/main/java/com/zxin/userservicegood/UserServiceGood2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-01-http-resttemplate/src/test/java/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-01-http-resttemplate/src/main/java/com/zxin/springcloud/SpringCloud01HttpRestTemplateApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-            <element signature="e#458#459#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/controller/QueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#426#427#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/java/com/zxin/consumerdemo/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/java/com/zxin/consumerdemo/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/java/com/zxin/consumerdemo/ConsumerDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/eureka-server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client/src/main/java/com/zxin/eurekaclient/EurekaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="41" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/controller/QueryController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="22">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/java/com/zxin/userservice/UserServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/src/main/java/com/zxin/eurekaserver/EurekaServer3Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/src/main/java/com/zxin/userservicegood/UserServiceGood3Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGood3Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/java/com/zxin/eurekaserver/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/java/com/zxin/userservicegood/UserServiceGoodApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/ConsumerDemoGoodApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/java/com/zxin/consumerdemogood/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="201">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/src/main/java/com/zxin/consumerdemogood/client/UserFeignClientFallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/test/java/com/zxin/eurekaserver/EurekaServerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1429,7 +1822,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35829493" />
               </list>
             </option>
           </splitter-proportions>
@@ -1472,12 +1865,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>LYdemo</last-edited>
+          <last-edited>Spring|eureka-server-3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.35829493" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -15,6 +15,14 @@
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

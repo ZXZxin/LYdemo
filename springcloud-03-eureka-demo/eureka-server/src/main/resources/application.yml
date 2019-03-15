@@ -1,5 +1,5 @@
 server:
-  port: 10087 # 端口
+  port: 10086 # 端口
 spring:
   application:
     name: eureka-server # 应用名称，会在Eureka中显示, 不加就会显示那个Unknown

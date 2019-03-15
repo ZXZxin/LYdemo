@@ -5,7 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/LYdemo.iml" filepath="$PROJECT_DIR$/LYdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/consumer-demo.iml" filepath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/consumer-demo/consumer-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/consumer-demo-good.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good/consumer-demo-good.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/consumer-demo-good-2.iml" filepath="$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2/consumer-demo-good-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/consumer-demo-good-3.iml" filepath="$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3/consumer-demo-good-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/eureka-server-2.iml" filepath="$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2/eureka-server-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/eureka-server-3.iml" filepath="$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3/eureka-server-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-config-01/springboot-01-config-01.iml" filepath="$PROJECT_DIR$/springboot-01-config-01/springboot-01-config-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-config-02/springboot-01-config-02.iml" filepath="$PROJECT_DIR$/springboot-01-config-02/springboot-01-config-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-config-03/springboot-01-config-03.iml" filepath="$PROJECT_DIR$/springboot-01-config-03/springboot-01-config-03.iml" />
@@ -13,8 +17,12 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-01-http-resttemplate/springcloud-01-http-resttemplate.iml" filepath="$PROJECT_DIR$/springcloud-01-http-resttemplate/springcloud-01-http-resttemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/springcloud-02-scene-simulate-cloud.iml" filepath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/springcloud-02-scene-simulate-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/springcloud-03-eureka-demo.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/springcloud-03-eureka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/springcloud-04-hystrix-demo.iml" filepath="$PROJECT_DIR$/springcloud-04-hystrix-demo/springcloud-04-hystrix-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-05-feign-demo/springcloud-05-feign-demo.iml" filepath="$PROJECT_DIR$/springcloud-05-feign-demo/springcloud-05-feign-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/user-service.iml" filepath="$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/user-service-good.iml" filepath="$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good/user-service-good.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/user-service-good-2.iml" filepath="$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2/user-service-good-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/user-service-good-3.iml" filepath="$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3/user-service-good-3.iml" />
     </modules>
   </component>
 </project>

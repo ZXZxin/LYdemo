@@ -12,9 +12,15 @@
     <file url="file://$PROJECT_DIR$/springcloud-02-scene-simulate-cloud/user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/consumer-demo-good" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-03-eureka-demo/user-service-good" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-04-hystrix-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/consumer-demo-good-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/eureka-server-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-04-hystrix-demo/user-service-good-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3" charset="UTF-8" />
   </component>
 </project>

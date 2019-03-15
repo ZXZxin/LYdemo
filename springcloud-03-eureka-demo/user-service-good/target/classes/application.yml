@@ -13,11 +13,12 @@ spring:
 mybatis:
 #  configuration:
 #    map-underscore-to-camel-case: true  # 有了通用mapper了就不要这个了
-  type-aliases-package: com.zxin.springboot.pojo
+  type-aliases-package: com.zxin.userservicegood.pojo
 server:
   port: 8081
 #  mapper-locations: classpath:mapper/*.xml  # 这里用通用mapper 不用xml了(单表)
 eureka:
   client:
     service-url: # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
+#      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka # 后面默认有一个eureka后缀
       defaultZone: http://127.0.0.1:10086/eureka # 后面默认有一个eureka后缀

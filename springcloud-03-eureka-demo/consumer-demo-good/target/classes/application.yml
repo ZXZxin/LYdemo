@@ -3,7 +3,9 @@ server:
 eureka:
   client:
     service-url: # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
+#      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka
       defaultZone: http://127.0.0.1:10086/eureka
+
 spring:
   application:
     name: consumer-demo-good

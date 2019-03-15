@@ -207,13 +207,12 @@ demo工程：《http-demo》
 发起get请求：
 
 ```java
-    @Test
-    public void testGet() throws IOException {
-        HttpGet request = new HttpGet("http://www.baidu.com");
-        String response = this.httpClient.execute(request, new BasicResponseHandler());
-        System.out.println(response);
-    }
-
+@Test
+public void testGet() throws IOException {
+    HttpGet request = new HttpGet("http://www.baidu.com");
+    String response = this.httpClient.execute(request, new BasicResponseHandler());
+    System.out.println(response);
+}
 ```
 
 发起Post请求：
@@ -1234,17 +1233,11 @@ eureka:
 
 ![1525619257397](assets/1525619257397.png)
 
-
-
 接下来，我们就来使用Ribbon实现负载均衡。
-
-
 
 ## 7.1.启动两个服务实例
 
 首先我们启动两个user-service实例，一个8081，一个8082。
-
- ![1525619515586](assets/1525619515586.png)
 
 Eureka监控面板：
 
@@ -1252,7 +1245,38 @@ Eureka监控面板：
 
 ## 7.2.开启负载均衡
 
-因为Eureka中已经集成了Ribbon，所以我们无需引入新的依赖。直接修改代码：
+因为Eureka中已经集成了Ribbon，所以我们无需引入新的依赖。
+
+```xml
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+</dependency>
+```
+
+有两个步骤: (1)、在`RestTemplate中添加@LoadBalanced`注解。(2)、在`Controller`中使用。
+
+```java
+@Controller
+@RequestMapping("consumer")
+public class ConsumerController {
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    @GetMapping("{id}")
+    @ResponseBody // 如果上面不是RestController 就一定要记得写这个
+    public User queryById(@PathVariable("id") Integer id) {
+
+        // 帮我们实现了负载均衡
+        String url = "http://user-service/user/" + id;
+        User user = restTemplate.getForObject(url, User.class);
+        return user;
+    }
+}
+```
+
+直接修改代码：
 
 在RestTemplate的配置方法上添加`@LoadBalanced`注解：
 
@@ -1264,44 +1288,9 @@ public RestTemplate restTemplate() {
 }
 ```
 
+下面的图示中还有一个`Eureka`没有写出来。
 
-
-修改调用方式，不再手动获取ip和端口，而是直接通过服务名称调用：
-
-```java
-@Service
-public class UserService {
-
-    @Autowired
-    private RestTemplate restTemplate;
-
-    @Autowired
-    private DiscoveryClient discoveryClient;
-
-    public List<User> queryUserByIds(List<Long> ids) {
-        List<User> users = new ArrayList<>();
-        // 地址直接写服务名称即可
-        String baseUrl = "http://user-service/user/";
-        ids.forEach(id -> {
-            // 我们测试多次查询，
-            users.add(this.restTemplate.getForObject(baseUrl + id, User.class));
-            // 每次间隔500毫秒
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        });
-        return users;
-    }
-}
-```
-
-访问页面，查看结果：
-
- ![1525620305704](assets/1525620305704.png)
-
-完美！
+![zx_4.png](assets3/zx_4.png)
 
 ## 7.3.源码跟踪
 
@@ -1460,3 +1449,4 @@ user-service:
 
 
 
+ 
