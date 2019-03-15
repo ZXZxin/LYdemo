@@ -1,0 +1,27 @@
+server:
+  port: 8080
+eureka:
+  client:
+    service-url: # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
+      defaultZone: http://127.0.0.1:10086/eureka
+spring:
+  application:
+    name: consumer-demo-good-4
+
+# 开启Feign的熔断配置
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能
+# 配置超时时长, 这个是全局的，不是局部某个方法的
+
+
+ribbon:
+  ConnectTimeout: 250 # 连接超时时间(ms)
+  ReadTimeout: 1000 # 通信超时时间(ms)
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000

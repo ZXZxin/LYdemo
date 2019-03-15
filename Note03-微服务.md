@@ -643,8 +643,6 @@ Zuul：维基百科：
 
 
 
-
-
 ## 3.2.Zuul加入后的架构
 
 ![1525675648881](assets3/1525675648881.png)
@@ -652,14 +650,11 @@ Zuul：维基百科：
 
 
 - 不管是来自于客户端（PC或移动端）的请求，还是服务内部调用。一切对服务的请求都会经过Zuul这个网关，然后再由网关来实现 鉴权、动态路由等等操作。Zuul就是我们服务的统一入口。
+- **需要我们自己配置不同的请求指向不同的服务**。
 
 ## 3.3.快速入门
 
 ### 3.3.1.新建工程
-
-填写基本信息：
-
-![1525675928548](assets3/1525675928548.png)
 
 添加Zuul依赖：
 
@@ -672,52 +667,47 @@ Zuul：维基百科：
 ```java
 @SpringBootApplication
 @EnableZuulProxy // 开启Zuul的网关功能
-public class ZuulDemoApplication {
+public class GatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZuulDemoApplication.class, args);
+		SpringApplication.run(GatewayApplication.class, args);
 	}
 }
 ```
 
 ### 3.3.3.编写配置
 
-```yaml
-server:
-  port: 10010 #服务端口
-spring: 
-  application:  
-    name: api-gateway #指定服务名
-```
-
 ### 3.3.4.编写路由规则
 
-我们需要用Zuul来代理user-service服务，先看一下控制面板中的服务状态：
-
-![1525676797879](assets3/1525676797879.png)
+我们需要用Zuul来代理user-service服务:
 
 - ip为：127.0.0.1
-- 端口为：8081
+- 端口为：10010
 
 映射规则：
 
 ```yaml
+server:
+  port: 10010
 zuul:
   routes:
-    user-service: # 这里是路由id，随意写
+    myservice: # 这里是路由id，随意写
       path: /user-service/** # 这里是映射路径
       url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
+    myconsumer:
+      path: /consumer-demo/**
+      url: http://127.0.0.1:8080
 ```
 
 我们将符合`path` 规则的一切请求，都代理到 `url`参数指定的地址
 
-本例中，我们将 `/user-service/**`开头的请求，代理到http://127.0.0.1:8081
+本例中，我们将 `/user-service/**`开头的请求，代理到http://127.0.0.1:10010
 
 ### 3.3.5.启动测试：
 
-访问的路径中需要加上配置规则的映射路径，我们访问：http://127.0.0.1:8081/user-service/user/10
+访问的路径中需要加上配置规则的映射路径，我们访问：
 
-![1525677046705](assets3/1525677046705.png)
+![zx_9.png](assets3/zx_9.png)
 
 
 
@@ -744,27 +734,62 @@ zuul:
 
 ```java
 @SpringBootApplication
-@EnableZuulProxy // 开启Zuul的网关功能
-@EnableDiscoveryClient
-public class ZuulDemoApplication {
+@EnableZuulProxy// 开启Zuul的网关功能
+@EnableDiscoveryClient// 记得带上这个
+public class GatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZuulDemoApplication.class, args);
+		SpringApplication.run(GatewayApplication.class, args);
 	}
 }
+
 ```
 
 ### 3.4.3.添加Eureka配置，获取服务信息
 
 ```yaml
+server:
+  port: 10010
+
 eureka:
   client:
-    registry-fetch-interval-seconds: 5 # 获取服务列表的周期：5s
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
-  instance:
-    prefer-ip-address: true
-    ip-address: 127.0.0.1
+spring:
+  application:
+    name: gateway
+
+# 下面的方法写死了
+#zuul:
+#  routes:
+#    myservice: # 这里是路由id，随意写
+#      path: /user-service/** # 这里是映射路径
+#      url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
+#    myconsumer:
+#      path: /consumer-demo/**
+#      url: http://127.0.0.1:8080
+
+# 第一版
+#zuul:
+#  routes:
+#    myservice:
+#      path: /user-service/**
+#      serviceId: user-service-good-4 # 这样就没有把Id写死,这样还可以实现负载均衡以及请求转发
+
+# 第二版: 上面版本的简化版本 (最好配置)
+zuul:
+  routes:
+    consumer-demo-good-4: /consumer-demo/**
+  ignored-services:  # 把所有想要暴露给外界的微服务写在这里
+    - user-service-good-4
+
+# 可以解决第一次会报错的问题，第二次刷新就没问题了
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000
+
+# 第三版: 什么都不用配置，默认去eureka去拉去所有的微服务，然后配置成 (访问的时候用默认id(user-service-good-4))
+# 我们这里就不用默认配置了，因为名称很长
 ```
 
 ### 3.4.4.修改映射配置，通过服务名称获取
@@ -774,9 +799,9 @@ eureka:
 ```yaml
 zuul:
   routes:
-    user-service: # 这里是路由id，随意写
-      path: /user-service/** # 这里是映射路径
-      serviceId: user-service # 指定服务名称
+    myservice:
+      path: /user-service/**
+      serviceId: user-service-good-4 # 这样就没有把Id写死,这样还可以实现负载均衡以及请求转发
 ```
 
 
@@ -785,7 +810,7 @@ zuul:
 
 再次启动，这次Zuul进行代理时，会利用Ribbon进行负载均衡访问：
 
-![1525677821212](assets3/1525677821212.png)
+![1525677821212](assets3/zx_10.png)
 
 日志中可以看到使用了负载均衡器：
 
@@ -827,11 +852,10 @@ zuul:
 
 ```yaml
 zuul:
-  prefix: /api # 添加路由前缀
   routes:
-      user-service: # 这里是路由id，随意写
-        path: /user-service/** # 这里是映射路径
-        service-id: user-service # 指定服务名称
+    consumer-demo-good-4: /consumer-demo/**
+  ignored-services:  # 把所有想要暴露给外界的微服务写在这里
+    - user-service-good-4
 ```
 
 我们通过`zuul.prefix=/api`来指定了路由的前缀，这样在发起请求时，路径就要以/api开头。
@@ -839,6 +863,8 @@ zuul:
 路径`/api/user-service/user/1`将会被代理到`/user-service/user/1`
 
 
+
+> 中间有个小报错问题解决: https://blog.csdn.net/heroguo007/article/details/78134678
 
 ## 3.8.过滤器
 

@@ -22,5 +22,11 @@
     <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo/consumer-demo-good-3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo/eureka-server-3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-05-feign-demo/user-service-good-3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-06-zuul-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-06-zuul-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-06-zuul-demo/consumer-demo-good-4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-06-zuul-demo/eureka-server-4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-06-zuul-demo/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-06-zuul-demo/user-service-good-4" charset="UTF-8" />
   </component>
 </project>

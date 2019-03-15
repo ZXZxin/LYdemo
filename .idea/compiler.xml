@@ -10,9 +10,12 @@
         <module name="consumer-demo-good" />
         <module name="consumer-demo-good-2" />
         <module name="consumer-demo-good-3" />
+        <module name="consumer-demo-good-4" />
         <module name="eureka-server" />
         <module name="eureka-server-2" />
         <module name="eureka-server-3" />
+        <module name="eureka-server-4" />
+        <module name="gateway" />
         <module name="springboot-01-config-01" />
         <module name="springboot-01-config-02" />
         <module name="springboot-01-config-03" />
@@ -22,10 +25,12 @@
         <module name="springcloud-03-eureka-demo" />
         <module name="springcloud-04-hystrix-demo" />
         <module name="springcloud-05-feign-demo" />
+        <module name="springcloud-06-zuul-demo" />
         <module name="user-service" />
         <module name="user-service-good" />
         <module name="user-service-good-2" />
         <module name="user-service-good-3" />
+        <module name="user-service-good-4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,10 +38,13 @@
       <module name="consumer-demo-good" target="1.8" />
       <module name="consumer-demo-good-2" target="1.8" />
       <module name="consumer-demo-good-3" target="1.8" />
+      <module name="consumer-demo-good-4" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server-2" target="1.8" />
       <module name="eureka-server-3" target="1.8" />
+      <module name="eureka-server-4" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="LYdemo" target="1.7" />
       <module name="spring-cloud-01-http-resttemplate" target="1.8" />
       <module name="springboot-01-config-01" target="1.8" />
@@ -48,12 +56,14 @@
       <module name="springcloud-03-eureka-demo" target="1.8" />
       <module name="springcloud-04-hystrix-demo" target="1.8" />
       <module name="springcloud-05-feign-demo" target="1.8" />
+      <module name="springcloud-06-zuul-demo" target="1.8" />
       <module name="springcloud_02_scene_simulate_cloud" target="1.7" />
       <module name="user-server-good-2" target="1.8" />
       <module name="user-service" target="1.8" />
       <module name="user-service-good" target="1.8" />
       <module name="user-service-good-2" target="1.8" />
       <module name="user-service-good-3" target="1.8" />
+      <module name="user-service-good-4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
