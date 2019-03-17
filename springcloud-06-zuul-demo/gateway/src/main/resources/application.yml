@@ -35,8 +35,17 @@ zuul:
 
 # 可以解决第一次会报错的问题，第二次刷新就没问题了
 ribbon:
-  ReadTimeout: 3000
-  ConnectTimeout: 3000
+  ReadTimeout: 2000
+  ConnectTimeout: 500
 
 # 第三版: 什么都不用配置，默认去eureka去拉去所有的微服务，然后配置成 (访问的时候用默认id(user-service-good-4))
 # 我们这里就不用默认配置了，因为名称很长
+
+# hystrix超时时长
+hystrix:
+  command:
+  	default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 6000 # 熔断超时时长：6000ms

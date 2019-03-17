@@ -3,12 +3,8 @@ server:
 
 eureka:
   client:
-    registry-fetch-interval-seconds: 5 # 获取服务列表的周期：5s
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
-  instance:
-    prefer-ip-address: true
-    ip-address: 127.0.0.1
 spring:
   application:
     name: gateway
@@ -37,6 +33,7 @@ zuul:
   ignored-services:  # 把所有想要暴露给外界的微服务写在这里
     - user-service-good-4
 
+# 可以解决第一次会报错的问题，第二次刷新就没问题了
 ribbon:
   ReadTimeout: 3000
   ConnectTimeout: 3000

@@ -5,8 +5,6 @@
 - 能独立搭建Zuul网关
 - 能编写Zuul的拦截器
 
-
-
 # 1.Hystrix
 
 介绍可以参考[**这篇文章**](https://zhuanlan.zhihu.com/p/28523060)
@@ -862,8 +860,6 @@ zuul:
 
 路径`/api/user-service/user/1`将会被代理到`/user-service/user/1`
 
-
-
 > 中间有个小报错问题解决: https://blog.csdn.net/heroguo007/article/details/78134678
 
 ## 3.8.过滤器
@@ -904,6 +900,8 @@ public abstract ZuulFilter implements IZuulFilter{
 
 ![1525681866862](assets3/1525681866862.png)
 
+`Origin Server`就是微服务。
+
 - 正常流程：
   - 请求到达首先会经过pre类型过滤器，而后到达routing类型，进行路由，请求就到达真正的服务提供者，执行请求，返回结果后，会到达post过滤器。而后返回响应。
 - 异常流程：
@@ -930,60 +928,51 @@ public abstract ZuulFilter implements IZuulFilter{
 ### 3.9.1.定义过滤器类
 
 ```java
-@Component
 public class LoginFilter extends ZuulFilter{
+
     @Override
     public String filterType() {
-        // 登录校验，肯定是在前置拦截
-        return "pre";
+        return FilterConstants.PRE_TYPE;
     }
 
     @Override
     public int filterOrder() {
-        // 顺序设置为1
-        return 1;
+        return FilterConstants.PRE_DECORATION_FILTER_ORDER - 1;
     }
 
+    // 是否拦截
     @Override
     public boolean shouldFilter() {
-        // 返回true，代表过滤器生效。
         return true;
     }
 
     @Override
     public Object run() throws ZuulException {
-        // 登录校验逻辑。
-        // 1）获取Zuul提供的请求上下文对象
+        // 获取请求上下文
         RequestContext ctx = RequestContext.getCurrentContext();
-        // 2) 从上下文中获取request对象
-        HttpServletRequest req = ctx.getRequest();
-        // 3) 从请求中获取token
-        String token = req.getParameter("access-token");
-        // 4) 判断
-        if(token == null || "".equals(token.trim())){
-            // 没有token，登录校验失败，拦截
+        // 获取Request
+        HttpServletRequest request = ctx.getRequest();
+        // 获取请求参数access-token
+        String token = request.getParameter("access-token");
+
+        if(StringUtils.isBlank(token)){
+            // 不存在，未登陆，则拦截
             ctx.setSendZuulResponse(false);
-            // 返回401状态码。也可以考虑重定向到登录页。
-            ctx.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+            // 设置状态码，返回403
+            ctx.setResponseStatusCode(HttpStatus.FORBIDDEN.value());
         }
-        // 校验通过，可以考虑把用户信息放入上下文，继续向后执行
         return null;
     }
 }
-
 ```
-
-
 
 ### 3.9.2.测试
 
 没有token参数时，访问失败：
 
-![1525683285697](assets3/1525683285697.png)
-
 添加token参数后：
 
-![1525683354113](assets3/1525683354113.png)
+![zx_11.png](assets3/zx_11.png)
 
 ## 3.10.负载均衡和熔断
 
@@ -998,12 +987,67 @@ ribbon:
   OkToRetryOnAllOperations: true # 是否对所有操作重试
   MaxAutoRetriesNextServer: 2 # 同一服务不同实例的重试次数
   MaxAutoRetries: 1 # 同一实例的重试次数
+# 可以解决第一次会报错的问题，第二次刷新就没问题了, 这两个加起来*2 <= 6000
+ribbon:
+  ReadTimeout: 2000
+  ConnectTimeout: 500
+
+# 第三版: 什么都不用配置，默认去eureka去拉去所有的微服务，然后配置成 (访问的时候用默认id(user-service-good-4))
+# 我们这里就不用默认配置了，因为名称很长
+
+# hystrix超时时长
 hystrix:
   command:
   	default:
-        execution:
-          isolation:
-            thread:
-              timeoutInMillisecond: 6000 # 熔断超时时长：6000ms
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 6000 # 熔断超时时长：6000ms
 ```
 
+ribbon的超时时长: 真实值是 (read + connect) * 2。需要小于 hystrix的超时时长。
+
+```java
+ ribbonTimeout = (ribbonReadTimeout + ribbonConnectTimeout) * (maxAutoRetries + 1) * (maxAutoRetriesNextServer + 1); 
+```
+
+## 3.11.Zuul的高可用
+
+要实现Zull的集群和负载均衡，可以在Zuul的前面加上一个Nginx。
+
+
+
+除了`Eureka、Ribbon、Hystrix、Feign、Zuul`。SpringCloud还有其他组件:
+
+`spring-cloud-config` : 统一配置中心，自动去Git拉去最新的配置、缓存。使用Git的WebHook钩子，去通知配置中心，说配置发生了变化。配置中心会通过消息总线去通知所有的微服务，更新配置。
+
+`spring-cloud-bus`: 消息总线。
+
+`spring-cloud-stream`: 消息通信。
+
+`spring-cloud-hystrix-dashboard`:容错统计，形成图形化界面。
+
+`spring-cloud-sleuth`: 链路追踪，结合`Zipkin`。
+
+# 4.ES
+
+使用`let`代替`var`，`let`是局部的，`var`是全局的。
+
+```javascript
+for (var i = 0; i < 10; i++) { // 这里 var 写成 let下面就会报错
+  // ...
+}
+console.log(i);
+```
+
+结构表达式使用:
+
+<div align="center"><img src="assets3/zx_12.png"></div><br>
+
+结构化:
+
+<div align="center"><img src="assets3/zx_13.png" width=""></div><br>
+
+`map`和`reduce`
+
+<div align="center"><img src="assets3/zx_14.png"></div><br>
